@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color:azure
+}
+
+.navbar {
+  background-color: cornflowerblue;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+}
+
+.navbar {
+  list-style-type: none;
+}
+
+.navbar .listitem {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.navbar a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: blue
+}
+
+h1 {
+  text-align: center;
+  color:cornflowerblue
+}
